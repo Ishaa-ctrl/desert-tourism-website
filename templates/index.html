@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Desert Tourism LLC - UAE tours, desert safaris, city tours, visas, hotels, flights and transfers.">
+  <title>Desert Tourism LLC | UAE Adventures</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="top-info">
+        <a href="https://www.google.com/maps/search/?api=1&query=Shop%20No%2012%20Al%20Mansoor%20Building%20Behind%20Al%20Ansari%20Exchange%20Umm%20Al%20Tharafa%20Street%20Rolla%20Sharjah%20UAE"
+          target="_blank"><i class="fa-solid fa-location-dot"></i> Shop No. 12, Al Mansoor Building, Rolla, Sharjah,
+          UAE</a>
+        <a href="mailto:info@desertshj.com"><i class="fa-regular fa-envelope"></i> info@desertshj.com</a>
+        <a href="tel:+97165636456"><i class="fa-solid fa-phone"></i> +971 6 563 6456</a>
+      </div>
+      <div class="social-links">
+        <span>Follow us</span>
+        <a href="https://www.facebook.com/share/14kYcKGstUQ/?mibextid=wwXIfr" target="_blank" aria-label="Facebook"><i
+            class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/desert_tourism_llc?igsi=MTF1emM2cHJuMHJkcA==" target="_blank"
+          aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://youtu.be/V197-7VZaoo?si=t8eZ0OlMg3r1NFgA" target="_blank" aria-label="YouTube"><i
+            class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="#home">
+        <img src="{{ url_for('static', filename='assets/desert-tourism-logo.png') }}" alt="Desert Tourism LLC">
+      </a>
+      <button class="menu-toggle" aria-label="Open navigation"><i class="fa-solid fa-bars"></i></button>
+      <nav class="nav-links">
+        <a class="active" href="#home">HOME</a>
+        <a href="#about">ABOUT US</a>
+        <a href="#experiences">EXPERIENCES</a>
+        <a href="#services">SERVICES</a>
+        <a href="#contact">CONTACT US</a>
+        <a class="nav-cta" href="#enquire">ENQUIRE NOW</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-shade"></div>
+      <div class="container hero-content">
+        <div class="hero-copy">
+          <p class="script-text">Your Journey, Our Passion!</p>
+          <p class="hero-kicker">EXPLORE THE UAE</p>
+          <h1>ADVENTURES <span>THAT STAY</span> IN YOUR HEART</h1>
+          <p class="hero-description">From golden deserts to iconic landmarks — we bring you unforgettable journeys
+            filled with adventure, culture and memories.</p>
+          <div class="hero-actions">
+            <a class="primary-btn" href="#enquire">PLAN YOUR TRIP <i class="fa-solid fa-arrow-right"></i></a>
+            <a class="secondary-btn" href="#experiences"><i class="fa-solid fa-compass"></i> EXPLORE EXPERIENCES</a>
+          </div>
+          <div class="hero-tags"><span><i class="fa-solid fa-shield-heart"></i> Safe & Comfortable</span><span><i
+                class="fa-solid fa-star"></i> Memorable Experiences</span></div>
+        </div>
+      </div>
+      <div class="floating-contact">
+        <a class="whatsapp-row" href="https://wa.me/971502669717" target="_blank"><i
+            class="fa-brands fa-whatsapp"></i><span><b>WhatsApp</b><small>Quick, Easy & Secure</small></span></a>
+        <a href="tel:+971502669717"><i class="fa-solid fa-mobile-screen-button"></i><span><b>Mobile</b><small>+971 50
+              266 9717</small></span></a>
+        <a href="mailto:info@desertshj.com"><i class="fa-solid fa-envelope"></i><span><b>Email
+              Us</b><small>info@desertshj.com</small></span></a>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="container trust-grid">
+        <div><i class="fa-solid fa-medal"></i><span>17+ Years<br><small>of Experience</small></span></div>
+        <div><i class="fa-solid fa-car-side"></i><span>Well Maintained<br><small>4x4 Vehicles</small></span></div>
+        <div><i class="fa-solid fa-users"></i><span>Professional &<br><small>Friendly Team</small></span></div>
+        <div><i class="fa-solid fa-headset"></i><span>Best Service &<br><small>Support</small></span></div>
+        <div><i class="fa-solid fa-sliders"></i><span>Customizable<br><small>Packages</small></span></div>
+      </div>
+    </section>
+
+    <section id="experiences" class="section experience-section">
+      <div class="container">
+        <div class="section-heading">
+          <p>EXPLORE MORE</p>
+          <h2>UAE EXPERIENCES</h2><span></span>
+        </div>
+        <div class="experience-grid">
+          <article class="experience-card safari">
+            <div class="card-icon"><i class="fa-solid fa-car-side"></i></div>
+            <h3>DESERT SAFARI</h3>
+            <p>Dune bashing, camel ride, BBQ dinner & more.</p><button class="book-btn"
+              data-service="Desert Safari">ENQUIRE NOW</button>
+          </article>
+          <article class="experience-card dune">
+            <div class="card-icon"><i class="fa-solid fa-person-biking"></i></div>
+            <h3>DUNE BASHING</h3>
+            <p>Feel the thrill with our powerful desert rides.</p><button class="book-btn"
+              data-service="Dune Bashing">ENQUIRE NOW</button>
+          </article>
+          <article class="experience-card dubai">
+            <div class="card-icon"><i class="fa-solid fa-building"></i></div>
+            <h3>DUBAI CITY TOUR</h3>
+            <p>Explore iconic landmarks and modern marvels.</p><button class="book-btn"
+              data-service="Dubai City Tour">ENQUIRE NOW</button>
+          </article>
+          <article class="experience-card abu">
+            <div class="card-icon"><i class="fa-solid fa-mosque"></i></div>
+            <h3>ABU DHABI TOUR</h3>
+            <p>Visit the capital's top attractions and landmarks.</p><button class="book-btn"
+              data-service="Abu Dhabi Tour">ENQUIRE NOW</button>
+          </article>
+          <article class="experience-card uae">
+            <div class="card-icon"><i class="fa-solid fa-umbrella-beach"></i></div>
+            <h3>UAE EXCURSIONS</h3>
+            <p>Discover more wonders across the UAE.</p><button class="book-btn" data-service="UAE Excursion">ENQUIRE
+              NOW</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="container about-grid">
+        <div class="about-content">
+          <p class="gold-label">ABOUT DESERT TOURISM LLC</p>
+          <h2>Your UAE adventure starts here.</h2>
+          <p>DESERT TOURISM LLC is a Sharjah-based tourism company offering desert and UAE travel experiences for
+            visitors and residents.</p>
+          <p>We focus on convenient service, memorable experiences and straightforward support from enquiry to booking.
+          </p>
+          <div class="about-points">
+            <span><i class="fa-solid fa-check"></i> Sharjah-based tourism service</span>
+            <span><i class="fa-solid fa-check"></i> Desert and UAE experiences</span>
+            <span><i class="fa-solid fa-check"></i> Flexible tour enquiries</span>
+            <span><i class="fa-solid fa-check"></i> Friendly customer support</span>
+          </div>
+          <a class="outline-gold" href="#contact">CONTACT US <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services-section">
+      <div class="container">
+        <div class="section-heading light">
+          <p>WE TAKE CARE OF</p>
+          <h2>EVERY PART OF YOUR JOURNEY</h2><span></span>
+        </div>
+        <div class="service-grid">
+          <a href="#enquire"><i class="fa-solid fa-plane-departure"></i><span>Flight Tickets</span></a>
+          <a href="#enquire"><i class="fa-solid fa-hotel"></i><span>Hotel Bookings</span></a>
+          <a href="#enquire"><i class="fa-solid fa-passport"></i><span>Visa Services</span></a>
+          <a href="#enquire"><i class="fa-solid fa-suitcase-rolling"></i><span>Holiday Packages</span></a>
+          <a href="#enquire"><i class="fa-solid fa-shield-heart"></i><span>Travel Insurance</span></a>
+          <a href="#enquire"><i class="fa-solid fa-car"></i><span>Airport Transfers</span></a>
+          <a href="#enquire"><i class="fa-solid fa-people-group"></i><span>Private & Group Tours</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="special-section">
+      <div class="container special-grid">
+        <div class="special-text">
+          <p class="gold-label">OUR SPECIAL EXPERIENCES</p>
+          <h2>Make every trip memorable.</h2>
+          <p>From desert adventures to cruises and cultural experiences, choose the journey that fits your people and
+            your plans.</p>
+          <div class="chips"><span>Family Trips</span><span>Group Tours</span><span>Corporate Travel</span></div>
+        </div>
+        <div class="special-cards">
+          <div class="mini-card camp"><span>Desert Camp</span></div>
+          <div class="mini-card dance"><span>Live Entertainment</span></div>
+          <div class="mini-card dhow"><span>Dhow Cruise</span></div>
+          <div class="mini-card camel"><span>Camel Ride</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="enquire" class="enquiry-section">
+      <div class="container enquiry-layout">
+        <div class="enquiry-copy">
+          <p class="gold-label">PLAN YOUR UAE EXPERIENCE</p>
+          <h2>Tell us what you're looking for.</h2>
+          <p>Send your travel details and we'll make it easy to discuss the right option for your trip.</p>
+          <div class="contact-cards"><a href="https://wa.me/971502669717" target="_blank"><i
+                class="fa-brands fa-whatsapp"></i><span><b>WhatsApp Us</b><small>+971 50 266 9717</small></span></a><a
+              href="tel:+97165636456"><i class="fa-solid fa-phone"></i><span><b>Call Office</b><small>+971 6 563
+                  6456</small></span></a><a href="mailto:info@desertshj.com"><i
+                class="fa-solid fa-envelope"></i><span><b>Email Us</b><small>info@desertshj.com</small></span></a></div>
+        </div>
+        <form id="enquiryForm" class="premium-form">
+          <div class="form-head"><span>TRIP ENQUIRY</span><small>Quick response via WhatsApp</small></div>
+          <div class="form-grid">
+            <label>Full Name<input id="name" required placeholder="Your name"></label>
+            <label>Phone / WhatsApp<input id="phone" required placeholder="Your number"></label>
+            <label>Email Address<input id="email" type="email" placeholder="Optional"></label>
+            <div class="service-field">
+              <label>Service</label>
+
+              <div class="custom-select" id="serviceSelect">
+                <div class="selected-option">
+                  <span>Select a service</span>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </div>
+
+                <div class="select-options">
+                  <div class="option">Desert Safari</div>
+                  <div class="option">Dune Bashing</div>
+                  <div class="option">Dubai City Tour</div>
+                  <div class="option">Abu Dhabi Tour</div>
+                  <div class="option">UAE Excursion</div>
+                  <div class="option">Flight Tickets</div>
+                  <div class="option">Hotel Bookings</div>
+                  <div class="option">Visa Services</div>
+                  <div class="option">Holiday Packages</div>
+                  <div class="option">Travel Insurance</div>
+                  <div class="option">Airport Transfers</div>
+                  <div class="option">Private & Group Tours</div>
+                </div>
+              </div>
+            </div>
+
+
+            <label class="full">Your Requirements<textarea id="message" rows="4"
+                placeholder="Tell us what you need, any preferences, timing or special requirements."></textarea></label>
+          </div>
+          <button class="primary-btn submit-btn" type="submit">SEND ENQUIRY ON WHATSAPP <i
+              class="fa-brands fa-whatsapp"></i></button>
+          <small id="formNote">For further assistance, please submit your enquiry.</small>
+        </form>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container contact-panel">
+        <div><i class="fa-solid fa-location-dot"></i>
+          <h3>DESERT TOURISM LLC</h3>
+          <p>Shop No. 12, Al Mansoor Building, Behind Al Ansari Exchange, Umm Al Tharafa Street, Rolla, Sharjah, UAE</p>
+        </div>
+        <div><i class="fa-solid fa-phone"></i>
+          <h3>CALL US TODAY</h3>
+          <p><a href="tel:+97165636456">+971 6 563 6456</a><br><a href="tel:+971502669717">+971 50 266 9717</a></p>
+        </div>
+        <div><i class="fa-solid fa-envelope"></i>
+          <h3>EMAIL US</h3>
+          <p><a href="mailto:info@desertshj.com">info@desertshj.com</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-top">
+      <div class="footer-brand"><img src="{{ url_for('static', filename='assets/desert-tourism-logo.png') }}"
+          alt="Desert Tourism LLC">
+        <p>Your trusted travel partner for unforgettable UAE journeys.</p>
+      </div>
+      <div>
+        <h4>QUICK LINKS</h4><a href="#home">Home</a><a href="#about">About Us</a><a
+          href="#experiences">Experiences</a><a href="#services">Services</a>
+      </div>
+      <div>
+        <h4>TOP EXPERIENCES</h4><a href="#experiences">Desert Safari</a><a href="#experiences">Dubai City Tour</a><a
+          href="#experiences">Abu Dhabi Tour</a><a href="#experiences">UAE Excursions</a>
+      </div>
+      <div>
+        <h4>FOLLOW US</h4>
+        <div class="footer-social"><a href="https://www.facebook.com/share/14kYcKGstUQ/?mibextid=wwXIfr"
+            target="_blank"><i class="fa-brands fa-facebook-f"></i></a><a
+            href="https://www.instagram.com/desert_tourism_llc?igsi=MTF1emM2cHJuMHJkcA==" target="_blank"><i
+              class="fa-brands fa-instagram"></i></a><a href="https://youtu.be/V197-7VZaoo?si=t8eZ0OlMg3r1NFgA"
+            target="_blank"><i class="fa-brands fa-youtube"></i></a></div>
+      </div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Desert Tourism LLC. All Rights Reserved.</span><span>Let’s make your next
+        journey unforgettable.</span></div>
+  </footer>
+  <script src="/static/script.js"></script>
+</body>
+
+</html>
