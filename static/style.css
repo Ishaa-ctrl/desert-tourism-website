@@ -1420,49 +1420,49 @@ select:focus {
 }
 
 .mini-card.dance {
-    background-image: url("static/assets/live-entertainment.jpeg");
+    background-image: url("/static/assets/live-entertainment.jpeg");
     background-size: cover;
     background-position: center;
 }
 
 .mini-card.dhow {
-    background-image: url("static/assets/dhow-cruise.jpeg");
+    background-image: url("/static/assets/dhow-cruise.jpeg");
     background-size: cover;
     background-position: center;
 }
 
 .mini-card.camp {
-    background-image: url("static/assets/desert-camp.jpeg");
+    background-image: url("/static/assets/desert-camp.jpeg");
     background-size: cover;
     background-position: center;
 }
 
 .mini-card.camel {
-    background-image: url("static/assets/camel-ride.jpeg");
+    background-image: url("/static/assets/camel-ride.jpeg");
     background-size: cover;
     background-position: center;
 }
 
 .experience-card.safari {
-    background-image: url("static/assets/desert-safari.jpeg");
+    background-image: url("/static/assets/desert-safari.jpeg");
     background-size: cover;
     background-position: center;
 }
 
 .experience-card.dune {
-    background-image: url("static/assets/dune-bashing.jpeg");
+    background-image: url("/static/assets/dune-bashing.jpeg");
     background-size: cover;
     background-position: center;
 }
 
 .experience-card.abu {
-    background-image: url("static/assets/abu-dhabi.jpeg");
+    background-image: url("/static/assets/abu-dhabi.jpeg");
     background-size: cover;
     background-position: center;
 }
 
 .experience-card.uae {
-    background-image: url("static/assets/uae-excursion.jpeg");
+    background-image: url("/static/assets/uae-excursion.jpeg");
     background-size: cover;
     background-position: center;
 }
