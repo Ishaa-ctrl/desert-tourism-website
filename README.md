@@ -1,4 +1,4 @@
-# Desert Tourism LLC Frontend Demo
+# Desert Tourism LLC Frontend 
 
 Open `index.html` in a browser to view the demo.
 
